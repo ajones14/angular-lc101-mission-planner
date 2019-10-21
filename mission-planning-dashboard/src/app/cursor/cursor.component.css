@@ -1,0 +1,14 @@
+#cursor{
+    font-size: 26px;
+}
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #47ff47;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: transparent; }
+    100%{   color: #47ff47;    }
+}
